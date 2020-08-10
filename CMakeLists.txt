@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(ml_lab2)
+project(ml_lab1)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -19,7 +19,7 @@ catkin_install_python(PROGRAMS scripts/knn.py
         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
-catkin_install_python(PROGRAMS scripts/naive_bayes.py
+catkin_install_python(PROGRAMS scripts/digits.py
         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
